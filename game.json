@@ -1,0 +1,167 @@
+{
+  "passages": [
+    {
+      "text": "You find yourself in your small room in the town inn.\n[[Inn Bar]]",
+      "links": [
+        {
+          "name": "Inn Bar",
+          "link": "Inn Bar",
+          "pid": "2"
+        }
+      ],
+      "name": "Inn Room",
+      "pid": "1",
+      "position": {
+        "x": "412",
+        "y": "189"
+      }
+    },
+    {
+      "text": "You are in the inn bar filled with all sorts of people drinking and singing.\n[[Inn Room]]\n[[Town Square]]\n[[Side Door]]",
+      "links": [
+        {
+          "name": "Inn Room",
+          "link": "Inn Room",
+          "pid": "1"
+        },
+        {
+          "name": "Town Square",
+          "link": "Town Square",
+          "pid": "3"
+        },
+        {
+          "name": "Side Door",
+          "link": "Side Door",
+          "pid": "8"
+        }
+      ],
+      "name": "Inn Bar",
+      "pid": "2",
+      "position": {
+        "x": "412",
+        "y": "339"
+      }
+    },
+    {
+      "text": "You are in the town square surrounded by shops. In the center is a large fountain. In front of you is a temple fronted by the goddess Melora.\n[[Inn Bar]] \n[[Blacksmith]]\n[[Belethor's General Goods]]\n[[Temple of Melora]]",
+      "links": [
+        {
+          "name": "Inn Bar",
+          "link": "Inn Bar",
+          "pid": "2"
+        },
+        {
+          "name": "Blacksmith",
+          "link": "Blacksmith",
+          "pid": "4"
+        },
+        {
+          "name": "Belethor's General Goods",
+          "link": "Belethor's General Goods",
+          "pid": "6"
+        },
+        {
+          "name": "Temple of Melora",
+          "link": "Temple of Melora",
+          "pid": "5"
+        }
+      ],
+      "name": "Town Square",
+      "pid": "3",
+      "position": {
+        "x": "412",
+        "y": "489"
+      }
+    },
+    {
+      "text": "You enter the Blacksmith, but quickly realize you have no gold and no idea how to make a combat system in Twine.\n[[Town Square]] ",
+      "links": [
+        {
+          "name": "Town Square",
+          "link": "Town Square",
+          "pid": "3"
+        }
+      ],
+      "name": "Blacksmith",
+      "pid": "4",
+      "position": {
+        "x": "262",
+        "y": "639"
+      }
+    },
+    {
+      "text": "You enter the Temple of Melora. A hooded priest bows to you as you enter. In front of you, there are rows of pews and a shrine to the goddess.\n[[Shrine]]\n[[Town Square]] \n",
+      "links": [
+        {
+          "name": "Shrine",
+          "link": "Shrine",
+          "pid": "7"
+        },
+        {
+          "name": "Town Square",
+          "link": "Town Square",
+          "pid": "3"
+        }
+      ],
+      "name": "Temple of Melora",
+      "pid": "5",
+      "position": {
+        "x": "562",
+        "y": "639"
+      }
+    },
+    {
+      "text": "You enter Belethor's General Goods. You see books, potions, leather puches, and many other various goods scattered around the shop. You also see Belethor, looking at you impatiently.\n[[Town Square]] ",
+      "links": [
+        {
+          "name": "Town Square",
+          "link": "Town Square",
+          "pid": "3"
+        }
+      ],
+      "name": "Belethor's General Goods",
+      "pid": "6",
+      "position": {
+        "x": "409",
+        "y": "639"
+      }
+    },
+    {
+      "text": "You approach the shrine and feel a calm come over you as you look into it.\n[[Town Square]] \n",
+      "links": [
+        {
+          "name": "Town Square",
+          "link": "Town Square",
+          "pid": "3"
+        }
+      ],
+      "name": "Shrine",
+      "pid": "7",
+      "position": {
+        "x": "562",
+        "y": "789"
+      }
+    },
+    {
+      "text": "You enter a closet filled with kegs and cleaning supplies.\n[[Inn Bar]] ",
+      "links": [
+        {
+          "name": "Inn Bar",
+          "link": "Inn Bar",
+          "pid": "2"
+        }
+      ],
+      "name": "Side Door",
+      "pid": "8",
+      "position": {
+        "x": "621",
+        "y": "307"
+      }
+    }
+  ],
+  "name": "Twison Export Adventure",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "ED1EC41C-0865-4F42-811E-F28246B764B8"
+}
